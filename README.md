@@ -12,7 +12,7 @@ This study shows how portfolio theory is actually applied under dynamic market c
 
 ## Repository Structure
 * [Report](Report.pdf)
-  contains a deeper description of the problem and a detailed explanation of the methodologies.
+  contains a deeper description of the study and a detailed explanation of the methodologies.
 
 * **`Main/`** contains the main script that executes the core logic of the project.
   
