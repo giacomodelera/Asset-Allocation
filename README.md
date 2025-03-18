@@ -1,7 +1,5 @@
 # Asset Allocation
 
-# AI for Blood Cell Identification
-
 ## Abstract
 This study examines portfolio allocation strategies for the S&P500 index, which contains 11 sector indices and 5 factor indices. 
 
@@ -15,12 +13,13 @@ This study shows how portfolio theory is actually applied under dynamic market c
 ## Repository Structure
 * [Report](Report.pdf)
   contains a deeper description of the problem and a detailed explanation of the methodologies.
-* **`Code/`**
+
+* **`main/** contains the main script that executes the core logic of the project.
   
-  **`1_dataset_augmentation`** contains code for augmenting the dataset by applying various transformations (e.g., rotation, flipping, scaling) to the images.
-  
-  **`2_model_training`** is responsible for training the AI model. It loads the augmented dataset, sets up the deep learning architecture, and trains the model using the appropriate loss function and optimization     technique.
-  
-  **`3_zip_for_submission`** is used to format the model and weights in order to easily submit results to the competition platform.
+* **`data/`** contains the original dataset used in the project.
+
+* **`functions/'** includes auxiliary functions for processing, analysis, and other operations.
+
+
 
 
