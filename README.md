@@ -3,22 +3,14 @@
 # AI for Blood Cell Identification
 
 ## Abstract
-Blood cell identification is critical in medical diagnostics, particularly for understanding diseases affecting the blood.
+This study examines portfolio allocation strategies for the S&P500 index, which contains 11 sector indices and 5 factor indices. 
 
-This project focuses on the classification of different types of blood cell images into eight distinct categories using neural networks and deep learning techniques. 
-The primary objective is to develop a model capable of achieving high accuracy in this task using image data.
+The analysis focuses on creating efficient portfolios using 2023 financial data through different techniques like the typical efficient frontier, constrained optimization, Black-Litterman model, and Principal Component Analysis. 
 
-The project began with the construction by hand of a Convolutional Neural Network (CNN), which provided baseline results. To improve performance, it has been decided to use tranfer learning techniques using pre-trained models and it has been found that the EfficientNet family was to best one to employ, with Efficient-NetV2S[3], towards techniques of data augmentation, achieving the best performance.
-
-Additionally, other dataset augmentation techniques were applied using keras-cv to enhance the training dataset and further improve model robustness. 
-
-In the end, also test time augmentation techinques were employed to improve the accuracy.
-
-## Context
-This project is an AI-based solution developed for blood cell identification as part of a competition. The goal was to accurately classify various types of blood cells from images. 
-The project utilizes deep learning models and image processing to achieve high classification accuracy. 
-
-We are proud to have ranked in the top 5 of the competition, demonstrating the effectiveness of the solution.
+Portfolios are compared to an equally weighted benchmark using performance metrics such as risk, return, and diversification.
+The in-sample analysis reveals the best allocations under various constraints, while the out-of-sample evaluation over 2024 analyzes the stability of these approaches. The results emphasize
+the trade-offs between risk and return and the impact of constraints on portfolio diversification.
+This study shows how portfolio theory is actually applied under dynamic market conditions.
 
 ## Repository Structure
 * [Report](Report.pdf)
