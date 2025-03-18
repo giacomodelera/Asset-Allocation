@@ -14,11 +14,11 @@ This study shows how portfolio theory is actually applied under dynamic market c
 * [Report](Report.pdf)
   contains a deeper description of the problem and a detailed explanation of the methodologies.
 
-* **`main/`** contains the main script that executes the core logic of the project.
+* **`Main/`** contains the main script that executes the core logic of the project.
   
-* **`data/`** contains the original dataset used in the project.
+* **`Data/`** contains the original dataset used in the project.
 
-* **`functions/`** includes auxiliary functions for processing, analysis, and other operations.
+* **`Functions/`** includes auxiliary functions for processing, analysis, and other operations.
 
 
 
